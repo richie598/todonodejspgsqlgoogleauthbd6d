@@ -38,8 +38,7 @@ const getRoles = (req, res) => {
   }
 
   // Uncomment this code below and plug in your own alias to test the contributor role
-  /*
-  if (body.userDetails === 'yourGoogleAlias@gmail.com') {
+  if (body.userDetails === 'info@eaffi.ie') {
     res.send({
       "roles": [
         "contributor"
@@ -48,7 +47,7 @@ const getRoles = (req, res) => {
 
     return;
   }
-  */
+  
 
   res.send({
     "roles": [
